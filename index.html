@@ -10,38 +10,67 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
-  <header>
-    <ul id="menu" class="shadow">
-      <li>
-        <a href="#about">About Me</a>
-      </li>
-      <li>
-        <a href="#projects">Projects</a>
-      </li>
-      <li>
-        <a href="#skills">Skills</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </header>
 
   <div id="lead">
+
     <div id="lead-content">
+      <hr class="home-hr top">
       <h1>Elvis Amuni</h1>
-      <h4>Web Developer</h4>
-      <p>"Simplicity is the ultimate sophistication."</p>
+      <hr class="home-hr bottom">
+      <h4>Mathematician turned Web Developer</h4>
+      <p><i>"Simplicity is the ultimate sophistication"</i></p>
     </div>
     <!-- End #lead-content -->
+
     <div id="lead-overlay">
     </div>
-    <div id="lead-down" style="margin-bottom: 100px;">
+
+    <div id="lead-down" style="margin-bottom: 80px;">
       <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
     </div>
     <!-- End #lead-down -->
+
   </div>
   <!-- End #lead -->
+
+  <!-- Navigation start -->
+
+  <header class="header" id="myHeader">
+
+
+    <nav class="navbar navbar-custom" role="navigation">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse" aria-control="custom-collapse" aria-expnad="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#about">ELVIS AMUNI</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#lead">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+      </header>
+
+      <!-- Navigation end -->
+
+
 
   <div id="about">
     <h2 class="heading" style="margin-left:600px;">About Me</h2>
@@ -54,10 +83,9 @@
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-6">
-          <p style="margin-top:40px;">I'm Elvis, a web developer currenlty based in Nairobi,Kenya.
-            As a developer, I have a keen eye for detail which is essential when it comes to building interactive applications with the high quality designs.
-            Besides coding, I participate in playing soccer and sprinting sports.
-            I also enjoy listening to music, watching movies and travelling.
+          <p style="margin-top:40px;">Hi, my name is Elvis a fullstack web developer currently based in Nairobi, Kenya.
+            As a developer, I am quick to learn new skills and concepts while keeping a keen eye on detail. Essentially this is important when it comes to building interactive applications with the high quality design.
+            <br>Besides coding, I enjoy solving Mathematical problems, reading books, listening to music and playing soccer.
           </p>
         </div>
         <div class="col-md-1"></div>
@@ -73,14 +101,21 @@
 
         <div class="col-md-12">
           <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/Screenshot-Quotes.png" class="picture img-responsive" style="height:300px; width:500px;">
-            </div>
+
+            <a href="https://elvandro.github.io/Quotes/Quotes/">
+              <div class="project-image">
+                <img src="images/Screenshot-Quotes.png" class="picture img-responsive" style="height:300px; width:500px;">
+                <div class="overlay">
+                  <div class="text" style="color:navy;">Quotes</div>
+                </div>
+              </div>
+            </a>
             <!-- End .project-image -->
+
             <div class="project-info">
               <h3>Quotes</h3>
               <p>
-                A simple application for creating and displaying quotes built using AngularJs.
+                A simple web application for creating and displaying quotes built using AngularJs.
               </p>
               <a class="btn btn-info" href="https://elvandro.github.io/Quotes/Quotes/">View Project</a>
               <a class="btn btn-success" href="https://github.com/Elvandro/Quotes">View Github Repo</a>
@@ -92,14 +127,21 @@
         <br>
         <div class="col-md-12">
           <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/Screenshot-IG.png" class="picture img-responsive" style="height:300px; width:500px;">
-            </div>
+
+            <a href="https://myinstagramip.herokuapp.com/">
+              <div class="project-image">
+                <img src="images/Screenshot-IG.png" class="picture img-responsive" style="height:300px; width:500px;">
+                <div class="overlay" style="background-color:brown;">
+                  <div class="text">Instagram</div>
+                </div>
+              </div>
+            </a>
             <!-- End .project-image -->
+
             <div class="project-info">
               <h3>Instagram Clone</h3>
               <p>
-                A website that functions in the same way as the popular photo sharing application Instagram.
+                A web application that functions in the same way as the popular photo sharing app, Instagram.
               </p>
               <a class="btn btn-info" href="https://myinstagramip.herokuapp.com/">View Project</a>
               <a class="btn btn-success" href="https://github.com/Elvandro/Instagram-Clone">View Github Repo</a>
@@ -111,10 +153,19 @@
         <br>
         <div class="col-md-12">
           <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/Screenshot-Gallery.png" class="picture img-responsive" style="height:300px; width:500px;">
-            </div>
+
+            <a href="https://worldcupgallery.herokuapp.com/">
+              <div class="project-image">
+                <img src="images/Screenshot-Gallery.png" class="picture img-responsive" style="height:300px; width:500px;">
+                <div class="overlay" style="background-color:saddlebrown;">
+                  <div class="text" style="color:yellow;">Gallery</div>
+                </div>
+              </div>
+            </a>
             <!-- End .project-image -->
+
+
+
             <div class="project-info">
               <h3>Gallery</h3>
               <p>
@@ -123,9 +174,13 @@
               <a class="btn btn-info" href="https://worldcupgallery.herokuapp.com/">View Project</a>
               <a class="btn btn-success" href="https://github.com/Elvandro/My-Gallery">View Github Repo</a>
             </div>
+
             <!-- End .project-info -->
+
+
           </div>
           <!-- End .project -->
+
         </div>
 
       </div>
@@ -134,47 +189,77 @@
   <!-- End #projects -->
 
   <div id="skills">
-    <h2 class="heading">Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Git</li>
-      <li>TypeScript</li>
-      <li>AngularJs</li>
-      <li>Python</li>
-      <li>Flask</li>
-      <li>PostgreSQL</li>
-      <li>Heroku</li>
-      <li>Django</li>
-    </ul>
-  </div>
-  <!-- End #skills -->
-
-  <div id="contact">
-    <h2>Get in Touch</h2>
-    <p class="text-center" style="color:black; font-size: 1.35em; font-family: 'Assistant', sans-serif;">You are welcome to work together or make an enquiry at</p>
-      <p class="text-center" style="color:black; font-size: 1.35em; font-family: 'Assistant', sans-serif;"><a href="mailto:elvisamuni22@gmail.com" style="color:white;">elvisamuni22@gmail.com</a></p>
-    <div class="col-md-4"></div>
-    <div class="col-md-4 social">
-
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/elvis-amuni/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/Elvandro/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-        </li>
-
-      </ul>
+    <div class="container">
+      <h2 class="heading">Skills</h2>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <div class="skills shadow-large">
+            <p>FRONT END DEVELOPMENT</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>JQuery</li>
+              <li>TypeScript</li>
+              <li>AngularJs</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skills shadow-large">
+            <p>BACK-END DEVELOPMENT</p>
+            <ul>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>Django</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- End #contact -->
+    </div>
+    <!-- End #skills -->
 
+
+
+
+    <div id="contact">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p class="text-center" style="color:black; font-size: 1.35em; font-family: 'Assistant', sans-serif;">You are welcome to work together or make an enquiry. Use the email address below to hit me up</p>
+        <p class="text-center" style="color:black; font-size: 1.35em; font-family: 'Assistant', sans-serif;"><a href="mailto:elvisamuni22@gmail.com" style="color:white;">elvisamuni22@gmail.com</a></p>
+      </div><!-- .container -->
+
+    </div>
+
+    <!-- End #contact -->
 
 
   <footer>
     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="social">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/elvis-amuni/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/Elvandro/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
       <div class="row">
         <div class="col-md-4 copyright"></div>
         <div class="col-md-4 top">
@@ -194,5 +279,21 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/scripts.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById('myHeader');
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if(window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
 </body>
 </html>
