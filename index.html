@@ -3,92 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Elvis Amuni | My Portfolio</title>
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+  <title>Elvis Amuni - Software developer</title>
+  <link rel="icon" type="images/png" href="images/EA_logo.png">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Assistant|Noto+Serif|Philosopher" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant|Noto+Serif|Philosopher">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
 </head>
 <body>
 
   <div id="lead">
-
     <div id="lead-content">
       <hr class="home-hr top">
       <h1>Elvis Amuni</h1>
       <hr class="home-hr bottom">
-      <h4>Mathematician turned Web Developer</h4>
-      <p><i>"Simplicity is the ultimate sophistication"</i></p>
+      <h4>Full stack Web Developer</h4>
+      <p>Simplicity is the ultimate sophistication</p>
     </div>
-    <!-- End #lead-content -->
-
-    <div id="lead-overlay">
-    </div>
-
-    <div id="lead-down" style="margin-bottom: 80px;">
+    <div id="lead-overlay"></div>
+    <div id="lead-down">
       <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
     </div>
-    <!-- End #lead-down -->
-
   </div>
+
   <!-- End #lead -->
 
   <!-- Navigation start -->
 
+
   <header class="header" id="myHeader">
-
-
     <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#about">ELVIS AMUNI</a>
+        </div>
+        <div class="collapse navbar-collapse" id="custom-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#lead">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-            <div class="container">
 
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse" aria-control="custom-collapse" aria-expnad="false" aria-label="Toggle navigation">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#about">ELVIS AMUNI</a>
-                </div>
 
-                <div class="collapse navbar-collapse" id="custom-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#lead">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
 
-            </div>
-
-        </nav>
-
-      </header>
-
-      <!-- Navigation end -->
+  <!-- Navigation end -->
 
 
 
   <div id="about">
-    <h2 class="heading" style="margin-left:600px;">About Me</h2>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <h2 class="heading">About Me</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <p>Hello, my name is Elvis and I'm a Software Developer.
+            I design and build cutting edge websites and applications
+            for the modern world.
+            Besides coding, I enjoy solving Mathematical problems,
+            reading books, listening to music and playing soccer.
+          </p>
+        </div>
+        <div class="col-md-1 col-lg-1"></div>
+        <div class="col-md-5 col-lg-5">
           <div class="image-container">
             <img src="images/IMG_1500.JPG" alt="Elvis Amuni" class="picture img-responsive">
           </div>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-6">
-          <p style="margin-top:40px;">Hi, my name is Elvis a fullstack web developer currently based in Nairobi, Kenya.
-            As a developer, I am quick to learn new skills and concepts while keeping a keen eye on detail. Essentially this is important when it comes to building interactive applications with the high quality design.
-            <br>Besides coding, I enjoy solving Mathematical problems, reading books, listening to music and playing soccer.
-          </p>
-        </div>
-        <div class="col-md-1"></div>
+
       </div>
     </div>
   </div>
@@ -104,7 +99,7 @@
 
             <a href="https://elvandro.github.io/Quotes/Quotes/">
               <div class="project-image">
-                <img src="images/Screenshot-Quotes.png" class="picture img-responsive" style="height:300px; width:500px;">
+                <img src="images/Screenshot-Quotes.png" class="picture img-responsive">
                 <div class="overlay">
                   <div class="text" style="color:navy;">Quotes</div>
                 </div>
@@ -130,7 +125,7 @@
 
             <a href="https://myinstagramip.herokuapp.com/">
               <div class="project-image">
-                <img src="images/Screenshot-IG.png" class="picture img-responsive" style="height:300px; width:500px;">
+                <img src="images/Screenshot-IG.png" class="picture img-responsive">
                 <div class="overlay" style="background-color:brown;">
                   <div class="text">Instagram</div>
                 </div>
@@ -156,7 +151,7 @@
 
             <a href="https://worldcupgallery.herokuapp.com/">
               <div class="project-image">
-                <img src="images/Screenshot-Gallery.png" class="picture img-responsive" style="height:300px; width:500px;">
+                <img src="images/Screenshot-Gallery.png" class="picture img-responsive">
                 <div class="overlay" style="background-color:saddlebrown;">
                   <div class="text" style="color:yellow;">Gallery</div>
                 </div>
@@ -202,7 +197,6 @@
               <li>Bootstrap</li>
               <li>JavaScript</li>
               <li>JQuery</li>
-              <li>TypeScript</li>
               <li>AngularJs</li>
             </ul>
           </div>
@@ -214,6 +208,7 @@
               <li>Python</li>
               <li>Flask</li>
               <li>Django</li>
+              <li>TypeScript</li>
               <li>PostgreSQL</li>
             </ul>
           </div>
@@ -229,11 +224,27 @@
     <div id="contact">
       <div class="container">
         <h2>Get in Touch</h2>
-        <p class="text-center" style="color:black; font-size: 1.35em; font-family: 'Assistant', sans-serif;">You are welcome to work together or make an enquiry. Use the email address below to hit me up</p>
-        <p class="text-center" style="color:black; font-size: 1.35em; font-family: 'Assistant', sans-serif;"><a href="mailto:elvisamuni22@gmail.com" style="color:white;">elvisamuni22@gmail.com</a></p>
-      </div><!-- .container -->
-
+        <p class="text-center" style="color:black; font-size: 1.5em; font-family: 'Assistant', sans-serif;">You are welcome to work together or make an enquiry. Use the email address below to hit me up</p>
+        <p class="text-center" style="color:black; font-size: 1.5em; font-family: 'Assistant', sans-serif;"><a href="mailto:elvisamuni22@gmail.com" style="color:white;">elvisamuni22@gmail.com</a></p>
+      </div>
+      <div class="row">
+      <div class="col-md-12">
+        <div id="social">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/elvis-amuni/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/Elvandro/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div><!-- .container -->
+
+
+
 
     <!-- End #contact -->
 
@@ -241,31 +252,11 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div id="social">
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/elvis-amuni/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                <a href="https://github.com/Elvandro/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-              </li>
-            </ul>
+        <div class="col-md-4"></div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <div class="top">
+            <span id="to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
           </div>
-        </div>
-      </div>
-
-
-
-      <div class="row">
-        <div class="col-md-4 copyright"></div>
-        <div class="col-md-4 top">
-          <span id="to-top">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-          </span>
           <div class="copyright">
             <p>
               Copyright &copy; 2018 ELVIS AMUNI
@@ -273,9 +264,11 @@
           </div>
         </div>
       </div>
+      <div class="col-md-4"></div>
     </div>
   </footer>
   <!-- End footer -->
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/scripts.min.js"></script>
