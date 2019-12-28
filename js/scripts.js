@@ -1,44 +1,46 @@
 $(document).ready(function() {
 
-    // Smooth scrolling
-    var scrollTab = $('.scroll');
+  // $('.project').animate({left: 0});
 
-    scrollTab.click(function(e){
-      e.preventDefault();
-      $('body,html').animate({
-        scrollTop: $(this.hash).offset().top
-      }, 1000);
-    });
+  // Smooth scrolling
+  var scrollTab = $('.scroll');
 
-    // Active link switching
-    $(window).scroll(function() {
-      var scrollbarLocation = $(this).scrollTop();
+  scrollTab.click(function(e){
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    }, 1000);
+  });
 
-      scrollTab.each(function() {
+  // Active link switching
+  $(window).scroll(function() {
+    var scrollbarLocation = $(this).scrollTop();
 
-        var sectionOffset = $(this.hash).offset().top - 20;
+    scrollTab.each(function() {
 
-        if ( sectionOffset <= scrollbarLocation ) {
-          $(this).parent().addClass('active');
-          $(this).parent().siblings().removeClass('active');
-        }
+      var sectionOffset = $(this.hash).offset().top - 20;
+
+      if ( sectionOffset <= scrollbarLocation ) {
+        $(this).parent().addClass('active');
+        $(this).parent().siblings().removeClass('active');
       }
-    });
+    })
+  });
 
 
-    // Scroll to top
-    $('#to-top').click(function() {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 500);
-    });
+  // Scroll to top
+  $('#to-top').click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 500);
+  });
 
-    // Scroll to first element
-    $('#lead-down span').click(function() {
-        var scrollDistance = $('#lead').next().offset().top;
-        $('html, body').animate({
-            scrollTop: scrollDistance + 'px'
-        }, 500);
-    });
+  // Scroll to first element
+  $('#lead-down span').click(function() {
+    var scrollDistance = $('#lead').next().offset().top;
+    $('html, body').animate({
+      scrollTop: scrollDistance + 'px'
+    }, 500);
+  });
 
 });

@@ -3,34 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="origin">
   <title>Elvis Amuni - Software developer</title>
   <link rel="icon" type="images/png" href="images/EA_logo.png">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant|Noto+Serif|Philosopher">
+  <link href="https://fonts.googleapis.com/css?family=Assistant|Noto+Serif|Philosopher" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Montserrat+Alternates|Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
 </head>
 <body>
 
   <div id="lead">
     <div id="lead-content">
-      <hr class="home-hr top">
-      <h1>Elvis Amuni</h1>
-      <hr class="home-hr bottom">
-      <h4>Full stack Web Developer</h4>
-      <p>Simplicity is the ultimate sophistication</p>
+      <h1>Hello, I'm <span id="highlight">Elvis Amuni</span>.
+        <br>I'm a full-stack web developer.
+      </h1>
+      <!-- <p>Simplicity is the ultimate sophistication</p> -->
     </div>
     <div id="lead-overlay"></div>
     <div id="lead-down">
+      <p>Learn more about what I do</p>
       <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
     </div>
   </div>
-
   <!-- End #lead -->
 
+
+
+
   <!-- Navigation start -->
-
-
   <header class="header" id="myHeader">
     <nav class="navbar navbar-custom" role="navigation">
       <div class="container">
@@ -41,7 +44,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#about">ELVIS AMUNI</a>
+          <a class="navbar-brand" href="#about">ELVIS</a>
         </div>
         <div class="collapse navbar-collapse" id="custom-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -55,33 +58,31 @@
       </div>
     </nav>
   </header>
-
-
-
-
   <!-- Navigation end -->
 
 
-
   <div id="about">
-    <div class="container">
-      <div class="row">
+    <div class="container flex">
+      <div class="center">
         <h2 class="heading">About Me</h2>
       </div>
       <div class="row">
-        <div class="col-md-6 col-lg-6">
-          <p>Hello, my name is Elvis and I'm a Software Developer.
-            I design and build cutting edge websites and applications
-            for the modern world.
-            Besides coding, I enjoy solving Mathematical problems,
-            reading books, listening to music and playing soccer.
-          </p>
-        </div>
-        <div class="col-md-1 col-lg-1"></div>
         <div class="col-md-5 col-lg-5">
           <div class="image-container">
             <img src="images/IMG_1500.JPG" alt="Elvis Amuni" class="picture img-responsive">
           </div>
+          <div class="me">Who's this guy?</div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <p>
+            I design and build cutting edge applications and websites for the modern world.
+            I enjoy bringing ideas to life in the browser by coding things from scratch.
+            I have serious passion for creating reponsive, intuitive and dynamic user experiences.
+            <!-- Fast load times and lag free interaction are my highest priority. I'm quietly confident,
+            naturally curious, and perpetually working on improving my chops one problem at a time. -->
+            <br>
+            <a href="#contact" style="text-decoration: none">Let's make something special together</a>.
+          </p>
         </div>
 
       </div>
@@ -89,15 +90,98 @@
   </div>
   <!-- End #about -->
 
+
+  <div id="skills">
+    <div class="container">
+      <h2 class="heading">Skills</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="skills">
+            <p>FRONT END DEVELOPMENT</p>
+            <div class="bar">
+              <div class="fill" style="width: 88%">
+                <div class="bold">HTML</div>
+              </div>
+              <div class="tag">90%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 85%">
+                <div class="bold">CSS</div>
+              </div>
+              <div class="tag">85%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 80%">
+                <div class="bold">JavaScript</div>
+              </div>
+              <div class="tag">80%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 70%">
+                <div class="bold">JQuery</div>
+              </div>
+              <div class="tag">70%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 80%">
+                <div class="bold">TypeScript</div>
+              </div>
+              <div class="tag">80%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 88%">
+                <div class="bold">Angular</div>
+              </div>
+              <div class="tag">90%</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <div class="skills">
+            <p>BACK-END DEVELOPMENT</p>
+            <div class="bar">
+              <div class="fill" style="width: 80%">
+                <div class="bold">Python</div>
+              </div>
+              <div class="tag">80%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 60%">
+                <div class="bold">Flask</div>
+              </div>
+              <div class="tag">60%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 70%">
+                <div class="bold">Django</div>
+              </div>
+              <div class="tag">70%</div>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 55%">
+                <div class="bold">PostgreSQL</div>
+              </div>
+              <div class="tag">55%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End #skills -->
+
+
   <div id="projects" class="background-alt">
     <h2 class="heading">Projects</h2>
     <div class="container">
       <div class="row">
 
         <div class="col-md-12">
-          <div class="project shadow-large">
 
-            <a href="https://elvandro.github.io/Quotes/Quotes/">
+          <div class="project animated slide-in-right" data-animation="slide-in-right">
+
+            <a target="_blank" rel="noopener noreferrer" href="https://elvandro.github.io/Quotes/Quotes/">
               <div class="project-image">
                 <img src="images/Screenshot-Quotes.png" class="picture img-responsive">
                 <div class="overlay">
@@ -112,8 +196,8 @@
               <p>
                 A simple web application for creating and displaying quotes built using AngularJs.
               </p>
-              <a class="btn btn-info" href="https://elvandro.github.io/Quotes/Quotes/">View Project</a>
-              <a class="btn btn-success" href="https://github.com/Elvandro/Quotes">View Github Repo</a>
+              <a class="btn btn-info" target="_blank" rel="noopener noreferrer" href="https://elvandro.github.io/Quotes/Quotes/">View Project</a>
+              <a class="btn btn-success" target="_blank" rel="noopener noreferrer" href="https://github.com/Elvandro/Quotes">View Github Repo</a>
             </div>
             <!-- End .project-info -->
           </div>
@@ -121,9 +205,9 @@
         </div>
         <br>
         <div class="col-md-12">
-          <div class="project shadow-large">
+          <div class="project">
 
-            <a href="https://myinstagramip.herokuapp.com/">
+            <a target="_blank" rel="noopener noreferrer" href="https://myinstagramip.herokuapp.com/">
               <div class="project-image">
                 <img src="images/Screenshot-IG.png" class="picture img-responsive">
                 <div class="overlay" style="background-color:brown;">
@@ -138,18 +222,19 @@
               <p>
                 A web application that functions in the same way as the popular photo sharing app, Instagram.
               </p>
-              <a class="btn btn-info" href="https://myinstagramip.herokuapp.com/">View Project</a>
-              <a class="btn btn-success" href="https://github.com/Elvandro/Instagram-Clone">View Github Repo</a>
+              <a class="btn btn-info" target="_blank" rel="noopener noreferrer" href="https://myinstagramip.herokuapp.com/">View Project</a>
+              <a class="btn btn-success" target="_blank" rel="noopener noreferrer" href="https://github.com/Elvandro/Instagram-Clone">View Github Repo</a>
             </div>
             <!-- End .project-info -->
           </div>
           <!-- End .project -->
         </div>
+
         <br>
         <div class="col-md-12">
-          <div class="project shadow-large">
+          <div class="project">
 
-            <a href="https://worldcupgallery.herokuapp.com/">
+            <a target="_blank" rel="noopener noreferrer" href="https://worldcupgallery.herokuapp.com/">
               <div class="project-image">
                 <img src="images/Screenshot-Gallery.png" class="picture img-responsive">
                 <div class="overlay" style="background-color:saddlebrown;">
@@ -166,8 +251,8 @@
               <p>
                 A gallery website, that tells the story of the 2018 FIFA World Cup, built using Django.
               </p>
-              <a class="btn btn-info" href="https://worldcupgallery.herokuapp.com/">View Project</a>
-              <a class="btn btn-success" href="https://github.com/Elvandro/My-Gallery">View Github Repo</a>
+              <a class="btn btn-info" target="_blank" rel="noopener noreferrer" href="https://worldcupgallery.herokuapp.com/">View Project</a>
+              <a class="btn btn-success" target="_blank" rel="noopener noreferrer" href="https://github.com/Elvandro/My-Gallery">View Github Repo</a>
             </div>
 
             <!-- End .project-info -->
@@ -183,83 +268,54 @@
   </div>
   <!-- End #projects -->
 
-  <div id="skills">
-    <div class="container">
-      <h2 class="heading">Skills</h2>
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <div class="skills shadow-large">
-            <p>FRONT END DEVELOPMENT</p>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>JavaScript</li>
-              <li>JQuery</li>
-              <li>AngularJs</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="skills shadow-large">
-            <p>BACK-END DEVELOPMENT</p>
-            <ul>
-              <li>Python</li>
-              <li>Flask</li>
-              <li>Django</li>
-              <li>TypeScript</li>
-              <li>PostgreSQL</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
+
+  <div id="contact">
+    <h2 class="heading">Get in Touch</h2>
+    <div class="chat">You are welcome to work together or make an enquiry.<br> Use the form below to queue up a chat.</div>
+    <div id="contact-form">
+      <form method="POST" action="https://mailthis.to/elvisamuni22@gmail.com">
+        <input type="hidden" name="_subject" value="Contact from personal website" />
+        <input type="hidden" name="_after" value="https://elvandro.github.io/elvisamuni/"/>
+        <input type="email"  placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
     </div>
-    </div>
-    <!-- End #skills -->
+    <!-- End #contact-form -->
+  </div>
+  <!-- End #contact -->
 
-
-
-
-    <div id="contact">
-      <div class="container">
-        <h2>Get in Touch</h2>
-        <p class="text-center" style="color:black; font-size: 1.5em; font-family: 'Assistant', sans-serif;">You are welcome to work together or make an enquiry. Use the email address below to hit me up</p>
-        <p class="text-center" style="color:black; font-size: 1.5em; font-family: 'Assistant', sans-serif;"><a href="mailto:elvisamuni22@gmail.com" style="color:white;">elvisamuni22@gmail.com</a></p>
-      </div>
-      <div class="row">
-      <div class="col-md-12">
-        <div id="social">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/elvis-amuni/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a href="https://github.com/Elvandro/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div><!-- .container -->
-
-
-
-
-    <!-- End #contact -->
+  <!-- ...name="_replyto" -->
+  <!-- </form>action="https://formspree.io/mwkvnovd"> -->
 
 
   <footer>
+    <div class="top">
+      <span id="to-top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></span>
+    </div>
     <div class="container">
+
+
+      <div id="social">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/elvis-amuni/" target="_blank">
+          <div class="icon">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Elvandro/" target="_blank">
+          <div class="icon">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
+
       <div class="row">
         <div class="col-md-4"></div>
         <div class="col-xs-12 col-sm-12 col-md-4">
-          <div class="top">
-            <span id="to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
-          </div>
           <div class="copyright">
             <p>
-              Copyright &copy; 2018 ELVIS AMUNI
+              Handcrafted by me &copy; 2018
             </p>
           </div>
         </div>
@@ -267,12 +323,13 @@
       <div class="col-md-4"></div>
     </div>
   </footer>
+
   <!-- End footer -->
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/scripts.min.js"></script>
-  <script src="js/smoothscroll.js"></script>
+  <!-- <script src="js/smoothscroll.js"></script> -->
   <script src="js/scripts.js"></script>
   <script>
     window.onscroll = function() {myFunction()};
@@ -286,6 +343,7 @@
       } else {
         header.classList.remove("sticky");
       }
+
     }
   </script>
 </body>
